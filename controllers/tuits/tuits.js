@@ -16,6 +16,6 @@ export default [
      "replies": 115, "retuits": 189, "likes": 2236,
      "dislikes": 0, "handle": "tesla",
      "tuit": "Tesla Immersive, our multichannel audio upmixer, enables stereo content to be remixed in real time, optimizing the listening experience for our vehicles specifically"},
-    },
+    }
 ];
     
