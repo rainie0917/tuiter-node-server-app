@@ -11,7 +11,6 @@ const TuitsController = (app) => {
 const createTuit = (req, res) => {
     const newTuit = req.body;
     newTuit._id = (new Date()).getTime()+'';
-    newTuit.image = "./nasa.png";
     newTuit.likes = 0;
     newTuit.liked = false;
     newTuit.dislikes = 0;
