@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 const schema = mongoose.Schema({
-  tuit: String,
+  image: Buffer,
   topic: String,
   userName: String,
   title: String,
@@ -11,6 +11,7 @@ const schema = mongoose.Schema({
   retuits: Number,
   replies: Number,
   handle: String,
+  tuit: String,
 }, {collection: 'tuits'});
 export default schema;
 
