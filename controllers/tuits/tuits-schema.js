@@ -2,6 +2,9 @@ import mongoose from 'mongoose';
 const schema = mongoose.Schema({
   tuit: String,
   topic: String,
+  userName: String,
+  title: String,
+  time: 
   liked: Boolean,
   dislikes: Number,
   likes: Number,
