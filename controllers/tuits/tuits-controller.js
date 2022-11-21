@@ -1,4 +1,4 @@
-import * as tuitsDao from '../../tuits/tuits-dao.js'
+import * as tuitsDao from './tuits-dao.js'
 // import posts from "./tuits.js";
 // let tuits = posts;
 
@@ -22,8 +22,7 @@ const createTuit = async (req, res) => {
 }
   
 const findTuits = async (req, res) =>
-    const tuits = await tuitsDao.findTuits()
-    res.json(tuits);
+    res.json(await tuitsDao.findTuits());
 
 const updateTuit = async (req, res) => {
     const tuitdIdToUpdate = req.params.tid;
