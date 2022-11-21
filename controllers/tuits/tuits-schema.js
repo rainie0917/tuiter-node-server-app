@@ -4,7 +4,7 @@ const schema = mongoose.Schema({
   topic: String,
   userName: String,
   title: String,
-  time: 
+  time: String,
   liked: Boolean,
   dislikes: Number,
   likes: Number,
