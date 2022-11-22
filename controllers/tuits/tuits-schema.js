@@ -1,17 +1,19 @@
 import mongoose from 'mongoose';
 const schema = mongoose.Schema({
-  image: Buffer,
-  topic: String,
+  image: String,
   userName: String,
-  title: String,
-  liked: Boolean,
-  dislikes: Number,
-  likes: Number,
-  disliked: Boolean,
-  retuits: Number,
-  replies: Number,
   handle: String,
+  time: String,
   tuit: String,
+  replies: Number,
+  retuits: Number,
+  liked: Boolean,
+  likes: Number,
+  dislikes: Number,
+  disliked: Boolean,
+  topic: String,
+  title: String,
 }, {collection: 'tuits'});
 export default schema;
+
 
